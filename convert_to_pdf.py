@@ -58,8 +58,8 @@ def method_1_pandoc(input_file, output_file):
             ])
         else:  # resume/cv
             cmd.extend([
-                '--variable', 'linestretch=1.15',  # Espaçamento mais compacto
-                '--variable', 'fontsize=10pt',  # Fonte um pouco menor
+                '--variable', 'linestretch=1.05',  # Espaçamento mais compacto (era 1.15)
+                '--variable', 'fontsize=9.5pt',  # Fonte menor (era 10pt)
                 '-V', 'colorlinks=true',
                 '-V', 'linkcolor=black',  # Links discretos
                 '-V', 'urlcolor=blue',
@@ -152,53 +152,53 @@ def method_2_weasyprint(input_file, output_file):
             body_css = """
                 body {
                     font-family: 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif;
-                    font-size: 10pt;
-                    line-height: 1.3;
+                    font-size: 9pt;
+                    line-height: 1.2;
                     color: #2c3e50;
                 }
                 h1 {
-                    font-size: 22pt;
+                    font-size: 20pt;
                     color: #1a1a1a;
-                    margin-bottom: 5px;
+                    margin-bottom: 3px;
                     margin-top: 0;
                 }
                 h2 {
-                    font-size: 14pt;
+                    font-size: 13pt;
                     color: #2c3e50;
-                    margin-top: 15px;
-                    margin-bottom: 8px;
+                    margin-top: 12px;
+                    margin-bottom: 6px;
                     border-bottom: 2px solid #3498db;
-                    padding-bottom: 3px;
+                    padding-bottom: 2px;
                 }
                 h3 {
-                    font-size: 11pt;
+                    font-size: 10pt;
                     color: #34495e;
-                    margin-top: 10px;
-                    margin-bottom: 5px;
+                    margin-top: 8px;
+                    margin-bottom: 4px;
                     font-weight: bold;
                 }
                 h4 {
-                    font-size: 10pt;
+                    font-size: 9pt;
                     color: #555;
-                    margin-top: 8px;
-                    margin-bottom: 3px;
+                    margin-top: 6px;
+                    margin-bottom: 2px;
                 }
                 p {
-                    margin: 3px 0;
+                    margin: 2px 0;
                 }
                 ul {
-                    margin: 5px 0;
-                    padding-left: 20px;
+                    margin: 4px 0;
+                    padding-left: 18px;
                 }
                 li {
-                    margin: 2px 0;
+                    margin: 1px 0;
                 }
                 code {
                     background-color: #ecf0f1;
-                    padding: 1px 4px;
+                    padding: 1px 3px;
                     border-radius: 2px;
                     font-family: 'DejaVu Sans Mono', monospace;
-                    font-size: 9pt;
+                    font-size: 8pt;
                     color: #c7254e;
                 }
                 strong {
@@ -211,7 +211,7 @@ def method_2_weasyprint(input_file, output_file):
                 hr {
                     border: none;
                     border-top: 1px solid #bdc3c7;
-                    margin: 10px 0;
+                    margin: 8px 0;
                 }
             """
         
@@ -372,7 +372,7 @@ def main():
     global DOCUMENT_TYPE, PAPER_SIZE, MARGIN_CM, PAPER_SIZE_PANDOC
     DOCUMENT_TYPE = 'resume'
     PAPER_SIZE = 'OFFICIO'
-    MARGIN_CM = 1.5
+    MARGIN_CM = 1.0  # Reduzido de 1.5cm para 1.0cm
     PAPER_SIZE_PANDOC = 'paperwidth=216mm,paperheight=330mm'
     
     print("✓ Formato: Currículo Profissional")

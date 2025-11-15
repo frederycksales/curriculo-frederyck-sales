@@ -9,7 +9,7 @@
 
 ## PERFIL PROFISSIONAL
 
-SRE com **7 anos em TI** e **2 anos especializados em SRE/Observabilidade**, arquitetando stack completa de monitoramento (Prometheus, Grafana, Loki, Zabbix, Elasticsearch). **Resultados comprovados**: 99% de disponibilidade, 80%+ redução de ruído de alertas em ambiente com 400+ hosts, provisionamento de servidores reduzido de horas para minutos via IaC (Ansible/Terraform).
+**Site Reliability Engineer (SRE)** com **2 anos de experiência especializada em Observabilidade e práticas de confiabilidade**, responsável pela implementação e operação de stack completa de monitoramento (Prometheus, Grafana, Loki, Zabbix, Elasticsearch). **Resultados alcançados**: 99% de disponibilidade, 80%+ redução de ruído de alertas em ambiente com 400+ hosts, provisionamento de servidores reduzido de horas para minutos via IaC (Ansible/Terraform). Background de **7 anos em TI** fornece base sólida em troubleshooting e impacto no usuário.
 
 ---
 
@@ -18,24 +18,24 @@ SRE com **7 anos em TI** e **2 anos especializados em SRE/Observabilidade**, arq
 ### **Encarregado de NOC - Observabilidade** | Sea Telecom  
 **Jul/2023 – Atual (2a 4m)** | Castanhal, PA
 
-**Arquitetura & Observabilidade:**
-- Arquitetei stack completa: **Prometheus (Mimir)**, **Grafana**, **Loki**, **Zabbix**, **Elasticsearch**, **Rsyslog** + infraestrutura (PostgreSQL, MySQL, Nginx, MinIO)
-- **99% de disponibilidade** aplicando IaC, staging environments e GitOps
-- **80%+ redução de ruído de alertas** implementando SLIs/SLOs baseados em Golden Signals
-- **40%+ melhoria no MTTD** (Mean Time to Detect) via dashboards orientados a SLIs
-- Capacity Planning: projeção TSDB até 2026 com modelagem estatística, remote write para Mimir (80% redução storage local)
-- Observabilidade multivendor (Huawei, Datacom, Fiberhome, ZTE) via SNMP
+**Implementação de Observabilidade & Stack de Monitoramento:**
+- Implementei e opero stack completa: **Prometheus (Mimir)**, **Grafana**, **Loki**, **Zabbix**, **Elasticsearch**, **Rsyslog** + infraestrutura (PostgreSQL, MySQL, Nginx, MinIO)
+- Contribuí para **99% de disponibilidade** aplicando IaC, staging environments e GitOps
+- Implementação de alertas baseados em SLIs/SLOs (Golden Signals) resultou em **80%+ redução de ruído de alertas**
+- Dashboards orientados a SLIs contribuíram para **40%+ melhoria no MTTD** (Mean Time to Detect)
+- Capacity Planning: análise de crescimento TSDB com projeção até 2026 usando modelagem estatística, implementação de remote write para Mimir (80% redução storage local)
+- Implementação de observabilidade multivendor (Huawei, Datacom, Fiberhome, ZTE) via SNMP
 
 **Automação & IaC:**
-- **Framework Ansible**: 10+ roles reutilizáveis (PostgreSQL, MariaDB, MongoDB, Zabbix, GLPI, MinIO) + 15+ playbooks de produção
-- **Provisionamento acelerado de horas → minutos**, eliminando 95% erros de configuração manual
-- **Ferramentas Python** de produção: NetBox-Zabbix Comparator (auditoria de inventário com relatórios Excel), CPE Onboarding/Offboarding Automation (gestão ciclo de vida com DBML schema), Grafana CLI Tool, SSH Orchestrator, fping-exporter customizado
+- **Framework Ansible**: 10+ roles reutilizáveis (PostgreSQL, MariaDB, MongoDB, Zabbix, GLPI, MinIO) + 15+ playbooks
+- **Provisionamento acelerado de horas → minutos**, eliminando a maioria dos erros de configuração manual
+- **Ferramentas Python**: NetBox-Zabbix Comparator (auditoria de inventário com relatórios Excel), CPE Onboarding/Offboarding Automation (gestão ciclo de vida com DBML schema), Grafana CLI Tool, SSH Orchestrator, fping-exporter customizado
 - IaC com **Terraform** (cloud-init, Proxmox provider) + versionamento Git/Gitea
 
-**Liderança Técnica:**
-- Condução de RCA, Blameless Post-mortems e implementação de SLIs/SLOs/Error Budgets
-- Proposta técnica SRE executiva (LaTeX, diagramas C4/PlantUML, análise ROI/TCO para AWS/GCP)
-- Redução de incidentes críticos: média de 2/mês → <2/ano
+**Práticas de Confiabilidade:**
+- Realização de RCA, Blameless Post-mortems e aplicação de SLIs/SLOs/Error Budgets
+- Elaboração de proposta técnica SRE (LaTeX, diagramas C4/PlantUML, análise ROI/TCO para AWS/GCP)
+- Contribuição para redução de incidentes críticos: média de 2/mês → <2/ano
 
 **Stack:** Prometheus (Mimir) • Grafana • Loki • Zabbix • Elasticsearch • OpenStack • Docker • Linux (Debian/Ubuntu) • PostgreSQL • MySQL • Nginx • Python • Ansible • Terraform • Git/Gitea • Jenkins
 
@@ -43,8 +43,8 @@ SRE com **7 anos em TI** e **2 anos especializados em SRE/Observabilidade**, arq
 
 ### **Encarregado de SAC** | Sea Telecom  
 **Set/2022 – Jul/2023 (11m)**
-- Coordenação de resposta a incidentes críticos minimizando impacto ao cliente
-- **25% redução no tempo de resolução** via análise de KPIs (Power BI) e aplicação de Lean/Kanban
+- Participação ativa em coordenação de resposta a incidentes críticos minimizando impacto ao cliente
+- Contribuição para **25% redução no tempo de resolução** via análise de KPIs (Power BI) e aplicação de Lean/Kanban
 
 ---
 
@@ -61,7 +61,7 @@ SRE com **7 anos em TI** e **2 anos especializados em SRE/Observabilidade**, arq
 ---
 
 ### **Projetista Eletricista Residencial** | Autônomo  
-**Jan/2018 – Set/2020 (2a 9m)** | Gestão autônoma de projetos (AutoCAD, documentação técnica)
+**Jan/2018 – Set/2020 (2a 9m)** | Gestão de projetos elétricos (AutoCAD, documentação técnica)
 
 ---
 
@@ -80,17 +80,17 @@ SRE com **7 anos em TI** e **2 anos especializados em SRE/Observabilidade**, arq
 
 ## COMPETÊNCIAS TÉCNICAS
 
-**SRE & Observabilidade:** Prometheus (Mimir, remote write, capacity planning) • Grafana • Loki • Zabbix (tuning avançado) • Elasticsearch • Rsyslog • SLIs/SLOs/SLAs • Error Budget • Golden Signals • RCA • Blameless Post-mortem • MTTD/MTTR
+**SRE & Observabilidade:** Prometheus (Mimir, remote write, capacity planning) • Grafana • Loki • Zabbix (otimização de performance) • Elasticsearch • Rsyslog • SLIs/SLOs/SLAs • Error Budget • Golden Signals • RCA • Blameless Post-mortem • MTTD/MTTR
 
 **Infraestrutura & Cloud:** OpenStack • Docker/Docker Compose • Kubernetes (k3s - Home Lab) • Linux (Debian/Ubuntu - hardening, systemd) • Nginx (reverse proxy, SSL/TLS) • MinIO • AWS (Cloud Fundamentals)
 
-**Automação & IaC:** Ansible (10+ roles, 15+ playbooks) • Terraform (Proxmox provider, cloud-init) • Python (APIs, CLI tools, async programming, design patterns) • Bash • Go (em desenvolvimento)
+**Automação & IaC:** Ansible (10+ roles, 15+ playbooks) • Terraform (Proxmox provider, cloud-init) • Python (APIs, CLI tools, async programming, design patterns) • Bash • Go (em aprendizado)
 
-**Bancos de Dados:** PostgreSQL • MySQL • MariaDB • MongoDB • Time Series (Prometheus/Mimir, VictoriaMetrics)
+**Bancos de Dados:** PostgreSQL • MySQL • MariaDB • MongoDB • Time Series (Prometheus/Mimir, VictoriaMetrics - conhecimento básico)
 
 **CI/CD:** Jenkins • GitHub Actions • ArgoCD • Git Hooks
 
-**Redes:** FTTH (troubleshooting avançado) • SNMP • DNS/DHCP • QoS/VLANs • NMS (NETNUMEN, UNM) • Equipamentos multivendor (ZTE, FiberHome, Mikrotik)
+**Redes:** FTTH (troubleshooting) • SNMP • DNS/DHCP • QoS/VLANs • NMS (NETNUMEN, UNM) • Equipamentos multivendor (ZTE, FiberHome, Mikrotik)
 
 **Processos:** ITIL • GLPI • Wiki.js • Lean/Kanban • 5 Porquês • C4 Model
 
@@ -100,7 +100,8 @@ SRE com **7 anos em TI** e **2 anos especializados em SRE/Observabilidade**, arq
 
 ## HOME LAB & PROJETOS
 
-Ambiente ativo para experimentação contínua (GitHub: [@frederycksales](https://github.com/frederycksales)):
+Ambiente ativo para aprendizado prático e experimentação (GitHub: [@frederycksales](https://github.com/frederycksales)):
+
 - **Kubernetes**: Cluster k3s HA em Proxmox com GitOps/ArgoCD, deploy Zabbix (Terraform+Ansible+Helm)
 - **Terraform**: Automação Proxmox, cloud-init, geração dinâmica de inventários Ansible
 - **Observabilidade**: Stack LGTM (Loki+Grafana+Tempo+Mimir) com Grafana Alloy
